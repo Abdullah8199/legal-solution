@@ -1,0 +1,96 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=EB+Garamond:wght@400;500;600&display=swap');
+
+ body{
+    font-family:Poppins;
+ }
+ h1,h5{
+    font-family: 'EB Garamond', serif;
+    font-size:25px;
+ }
+ h2{
+    font-family:'EB Garamond', serif;
+    font-size:30px;
+ }
+ h4{
+    font-family:'EB Garamond', serif;
+    font-size:30px; 
+ }
+.bg{
+    background-image: url(../images/banner.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    width:100%;
+    height:50vh;
+    font-family:EB Garamond;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.header-bottom .section-title{
+    color:#414040;
+
+}
+.header-bottom p{
+    color:#707070;
+    
+}
+.container{
+   color:#fff;
+   text-align:center;
+   padding:20px;
+  
+}
+.text input{
+    width:300px;
+    height:40px;
+    border-radius:8px;
+    border:none;
+    outline:none;
+    color:#fff;
+    
+}
+.btn-primary{
+    height:40px;
+    border-radius:8px;
+    border:none;
+    outline:none;
+    width:100px;
+    background:#B68C5A;
+    color:#fff;
+    margin-right:10px;
+}
+/* .telegram{
+    border-radius:10px;
+    width:20px;
+    height:20
+} */
+.telegram img{
+    width:30px;
+    height:30px;
+   
+   
+    
+}
+.telegram{
+    border-radius:5px;
+    border:none;
+    background-color:#B68C5A;
+   
+    
+}
+.carousel-caption{
+    top:30%!important;
+
+}
+.wrapper{
+    width:85% !important;
+    margin:10px auto !important;
+}
+@media only screen and (max-width:576px) {
+    .wrapper{
+        width:100% !important;
+    }
+}
